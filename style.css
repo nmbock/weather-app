@@ -1,0 +1,45 @@
+#map { 
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F2DDB6;
+}
+
+#user-name, #user-age, #user-city, #temperature, #weather-code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 30px;
+    background-color: #C5E2D2;
+  }
+  
+  #user-name {
+    background-color: #9BC4C4;
+  }
+  
+  #user-age {
+    background-color: #C39BD3;
+  }
+  
+  #user-city {
+    background-color: #F0C987;
+  }
+  
+  #temperature {
+    background-color: #9BADC4;
+  }
+  
+  #weather-code {
+    background-color: #9BC4A3;
+  }
+  

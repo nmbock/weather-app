@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project</title>
+    <meta charset="UTF-8"> <!-- In order to have avoid having a Â next to the temperature-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""/>
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+        crossorigin=""></script> 
+
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Leaflet map container -->
+    <div id="map"></div>
+
+    <!-- User information containers -->
+    <div id="user-name"></div>
+    <div id="user-age"></div>
+    <div id="user-city"></div>
+
+    <!-- City information containers -->
+    <div id="city-coordinates"></div>
+    <div id="city-latitude"></div>
+    <div id="city-longitude"></div>
+
+    <!-- Weather information containers -->
+    <div id="temperature"></div>
+    <div id= "weather-code"></div> <!-- It indicates the weather condition by giving the number and a link to the table to read it-->
+
+    <!-- Script file it is at the best place here to have a sychronous preview of the different elements in html-->
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
+
