@@ -1,4 +1,4 @@
-# weather-app
+# weather app
 
 ## GOAL : I was asked to produce a web page displaying the weather conditions for 10 random users on a map.
 
